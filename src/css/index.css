@@ -1,0 +1,80 @@
+body {
+  font-weight: bold;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  padding: 9px;
+}
+
+.name-score {
+  margin: 0;
+}
+
+.list-item:nth-child(even) {
+  background: #eff0f0;
+}
+
+.recent {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  margin: auto;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+}
+
+.scores-list {
+  border: solid;
+}
+
+.refresh-div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+form > input {
+  border: solid;
+  font-weight: bold;
+}
+
+.refresh {
+  background: none;
+  box-shadow: 3px 4px 0 0;
+  font-weight: bold;
+  width: 40%;
+  height: 20%;
+}
+
+form > button {
+  width: 35%;
+  align-self: flex-end;
+  box-shadow: 3px 4px 0 0;
+  font-weight: bold;
+  background: none;
+}
