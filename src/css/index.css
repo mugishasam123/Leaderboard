@@ -1,9 +1,26 @@
 body {
   font-weight: bold;
+  margin: 0;
+}
+
+header {
+  background: grey;
+  padding: 18px;
 }
 
 header > h1 {
+  margin: 0;
+}
+
+footer {
+  background: grey;
+  margin-top: 42px;
+  padding: 18px;
+}
+
+footer > h3 {
   text-align: center;
+  margin: 0;
 }
 
 ul {
@@ -30,15 +47,15 @@ ul {
 
 .main {
   display: flex;
-  justify-content: center;
-  gap: 80px;
+  justify-content: space-around;
   align-items: center;
-  margin: auto;
+  margin-top: 40px;
 }
 
 .scores {
   display: flex;
   flex-direction: column;
+  width: 45%;
 }
 
 .scores-list {
@@ -63,12 +80,12 @@ form > input {
   font-weight: bold;
 }
 
-.refresh {
-  background: none;
+#refresh {
+  background: violet;
   box-shadow: 3px 4px 0 0;
   font-weight: bold;
-  width: 40%;
-  height: 20%;
+  width: fit-content;
+  height: 30%;
 }
 
 form > button {
@@ -76,5 +93,5 @@ form > button {
   align-self: flex-end;
   box-shadow: 3px 4px 0 0;
   font-weight: bold;
-  background: none;
+  background: violet;
 }
