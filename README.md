@@ -1,3 +1,6 @@
+
+![](https://img.shields.io/badge/Leaderboard-blue)
+
 # Leaderboard
 > this is the desktop version of Leaderboard app.
 
@@ -5,21 +8,55 @@
 
 this desktop version of leaderboard contains also mobile version 
 
+<br/>
+
+<br/>
+
+Additional description about the project and its features.
 ## Built With
 
+- Major languages (JavaScript(ES6))
+- Technologies/tools used 
 
-- Major languages : Html , css and javascript
+  
+  ``` bash
+ 
+  - Webpack(Code Bundlng et al)
+  - Babel (code transpiling)
+  - Jest(for testing)
+  - Git(version control)
+  - ESLint(JavaScript linting)
+  - Stylelint(style linting)
 
-- Technologies used :linters,git ,webpack and github
+  ```
 
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
+### Usage
+#### Clone this repository
+
+```bash
+$ git clone https://github.com/mugishasam123/Show-Mania
+.git
+$ cd Show-Mania
+
 ```
--clone the repo in a folder in  your local machine using **git clone command**
--pull the files from origin/master using **git pull command**
--run the index.html in any browser to get output of the project
+#### Run project
+
+```bash
+$ npm install
+$ npm start # this will open it in the browser and enable hot reloading
 ```
+
+  <br>
 
 
 
@@ -37,18 +74,14 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/mugishasam123/Show-Mania/issues).
+
+<br>
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
