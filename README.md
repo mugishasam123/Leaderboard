@@ -2,13 +2,9 @@
 ![](https://img.shields.io/badge/Leaderboard-blue)
 
 # Leaderboard
-> this is the desktop version of Leaderboard app.
+>Leaderboard is an app that allows you to enter a player's name and their score ,after they are put on leaderboard with other players.
 
 ![screenshot](./screenshot.png)
-
-this desktop version of leaderboard contains also mobile version 
-
-<br/>
 
 <br/>
 
@@ -44,9 +40,9 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git clone https://github.com/mugishasam123/Show-Mania
+$ git clone https://github.com/mugishasam123/Leaderboard
 .git
-$ cd Show-Mania
+$ cd Leaderboard
 
 ```
 #### Run project
@@ -74,7 +70,7 @@ $ npm start # this will open it in the browser and enable hot reloading
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mugishasam123/Show-Mania/issues).
+Feel free to check the [issues page](https://github.com/mugishasam123/Leaderboard/issues).
 
 <br>
 
