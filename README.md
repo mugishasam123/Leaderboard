@@ -6,8 +6,10 @@
 
 ![screenshot](./screenshot.png)
 
-<br/>
-![Live demo](https://leaderboard42.netlify.app/)
+# Live demo
+
+[Live Demo ](https://leaderboard42.netlify.app/)
+
 
 Additional description about the project and its features.
 ## Built With
